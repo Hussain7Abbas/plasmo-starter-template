@@ -5,12 +5,7 @@
   },
 
   "files": {
-    "ignore": [
-      "**/node_modules/**",
-      "**/.plasmo/**",
-      "**/.github/**",
-      "**/build/**"
-    ]
+    "ignore": ["**/node_modules/**", "**/.plasmo/**", "**/.github/**", "**/build/**"]
   },
 
   "vcs": {
@@ -41,7 +36,6 @@
       "suspicious": {},
       "performance": {},
       "correctness": {
-        "noUnusedImports": "warn",
         "noUnusedVariables": "warn",
         "useHookAtTopLevel": "warn",
         "useExhaustiveDependencies": "off"
